@@ -4,14 +4,13 @@
 
 ![Workflow](/assets/MachineLearningWorkflow.png)
 
-## Datainsamling, format och förvaring
 
-### Datainsamling
+## Datainsamling
 Det går att ladda ner data på [bostadspriser över hela Sverige][4] i excel format som kan omformateras till en csv (Comma-seperated values) fil. Den datan som finns är antal sålda villor, bostadsrätter, fritidshus i olika län, kommuner och hela riket under de senaste månaderna och åren med medelvärdspriset, priset per kvadratmeter och prisutvecklingen i procent.
 
 Den data som samlas in är bland det viktigaste som finns i hela arbetsflödet för om datan som samlats in är dålig kommer också modellen bli dålig då den baserar allt på just denna datan som den tränar, testar och validerar sig på.
 
-### Förvaring av data
+## Förvaring av data
 Den datan som samlats in måste förvaras på ett sätt som gör det möjligt för modellen att utvecklias vidare. Då krävs det en långsiktig förvaring och en hög presterande förmåga för att behandla ny data för senare användning.
 
 Viktiga områden att tänka på när det handlar om dataförvaring är:
