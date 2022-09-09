@@ -61,7 +61,7 @@ För att [hantera datan][1] i Python så används bibliotek som till exempel Num
 
 I driftsättning så är de teknologier som ["containers"][10] som är viktiga för att ha modellen i produktion lokalt eller i molnet.
 
-# Källor
+# Källhänvisning
 
 <!-- 
 
