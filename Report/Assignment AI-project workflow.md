@@ -4,9 +4,8 @@
 
 ![Workflow](/assets/MachineLearningWorkflow.png)
 
-
 ## Datainsamling
-Det går att ladda ner data på [bostadspriser över hela Sverige][4] i excel format som kan omformateras till en csv (Comma-seperated values) fil. Den datan som finns är antal sålda villor, bostadsrätter, fritidshus i olika län, kommuner och hela riket under de senaste månaderna och åren med medelvärdspriset, priset per kvadratmeter och prisutvecklingen i procent.
+Det går att ladda ner data på bostadspriser över hela Sverige i excel format som kan omformateras till en csv (Comma-seperated values) fil. Den datan som finns är antal sålda villor, bostadsrätter, fritidshus i olika län, kommuner och hela riket under de senaste månaderna och åren med medelvärdspriset, priset per kvadratmeter och prisutvecklingen i procent.
 
 Den data som samlas in är bland det viktigaste som finns i hela arbetsflödet för om datan som samlats in är dålig kommer också modellen bli dålig då den baserar allt på just denna datan som den tränar, testar och validerar emot.
 
@@ -27,7 +26,7 @@ Träningsdatan används för att träna algoritmen för att skapa en modell som 
 
 ## Visualisera data
 
-Det finns flera olika sätt att visa upp data i python men den vi har gått igenom hittills är [Matplotlib][6]. Det är ett bibliotek för att rita upp grafer som till exempel linjediagram och stapeldiagram. Detta kan användas för att se datan visuellt så man kan få en uppfattning av den och se mönster, trender eller sammanhang som man kanske skulle inte ha sätt innan.
+Det finns flera olika sätt att visa upp data i python men den vi har gått igenom hittills är Matplotlib. Det är ett bibliotek för att rita upp grafer som till exempel linjediagram och stapeldiagram. Detta kan användas för att se datan visuellt så man kan få en uppfattning av den och se mönster, trender eller sammanhang som man kanske skulle inte ha sätt innan.
 
 ## Bearbetning av data
 
@@ -35,7 +34,7 @@ För att kunna bearbeta den insamlade datan så måste den vara i ett format som
 
 ## Linjär regression
 
-Är en "[Supervised Machine Learning Algorithm][1]" vilket betyder att det är en algoritm som använder data som är märkt "labeled" vad det är för indata och utdata.
+Är en "Supervised Machine Learning Algorithm" vilket betyder att det är en algoritm som använder data som är märkt "labeled" vad det är för indata och utdata.
 Den används för att hitta relationen mellan en oberoende variabel (x) och en beroende variabel (y). Detta görs för att förutsäga vad den beroende variabeln (y) blir given en oberoende variabel (x). När det finns fler än en oberoende variabel som indata kallas det för en multipel linjär regression.
 
 ### Enkel linjär regressions ekvation
@@ -51,15 +50,15 @@ Då det är flera oberoende variablar som ska inverka i förutsägelsen så anv�
 
 ## Driftsätta modellen
 
-När modellen är tränad, testad och validerad så ska den [driftsättas][9] (deploy to production). Här är det viktigt att man har följt en plan om hur datan samlas in, bearbetas, förvaras och hämtas. För det påverkar hur modellen tränas, testas och valideras för en driftsättning. När modellen driftsätts så är det bra att den sätts in i en "container" som hjälper med skalbarheten, repetivitet och koordinering när modellen går i produktion. När modellen är i produktion ska den konstant övervakas och underhållas så den håller på lång sikt och utför sitt syfte.
+När modellen är tränad, testad och validerad så ska den driftsättas (deploy to production). Här är det viktigt att man har följt en plan om hur datan samlas in, bearbetas, förvaras och hämtas. För det påverkar hur modellen tränas, testas och valideras för en driftsättning. När modellen driftsätts så är det bra att den sätts in i en "container" som hjälper med skalbarheten, repetivitet och koordinering när modellen går i produktion. När modellen är i produktion ska den konstant övervakas och underhållas så den håller på lång sikt och utför sitt syfte.
 
 ## Teknologier
 
-[Python][7] är programmeringsspråket som är mest populärt inom AI, maskininlärning och djupinlärning. I språket finns det olika bibliotek för att [visualisera data][6] som till exempel Matplotlib, Pandas Visualization, Seaborn, plotnine och Plotly.
+Python är programmeringsspråket som är mest populärt inom AI, maskininlärning och djupinlärning. I språket finns det olika bibliotek för att visualisera data som till exempel Matplotlib, Pandas Visualization, Seaborn, plotnine och Plotly.
 
-För att [hantera datan][1] i Python så används bibliotek som till exempel Numpy, Pandas och SciKit Learn.
+För att hantera datan i Python så används bibliotek som till exempel Numpy, Pandas och SciKit Learn.
 
-I driftsättning så är de teknologier som ["containers"][10] som är viktiga för att ha modellen i produktion lokalt eller i molnet.
+I driftsättning så är de teknologier som "containers" som är viktiga för att ha modellen i produktion lokalt eller i molnet.
 
 # Källhänvisning
 
