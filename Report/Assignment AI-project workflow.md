@@ -1,6 +1,6 @@
 ![Assignment](/assets/Assignment.png)
 
-# Arbetsflöde för ett AI-projekt inom huspris förutsägelse
+# Arbetsflöde för ett AI-projekt inom husprisförutsägelser
 
 ![Workflow](/assets/MachineLearningWorkflow.png)
 
@@ -20,7 +20,7 @@ Viktiga områden att tänka på när det handlar om dataförvaring är:
 - Genomströmning
 - Parallell åtkomst
 
-När man väljer ska man ta till hänsyn vilken typ av data som ska hanteras så man tar rätt lösning för uppgiften. Det finns olika molnlösningar från företag som IBM, Microsoft och Google för förvaring och hantering av data men de finns också lokala lösningar beroende på vad som krävs inom de tidigare nämnda områdena.
+När man väljer ska man ta hänsyn till vilken typ av data som ska hanteras så man tillämpar den lösningen som passar bäst för uppgiften. Det finns olika molnlösningar från företag som IBM, Microsoft och Google för förvaring och hantering av data men de finns också lokala lösningar beroende på vad som krävs inom de tidigare nämnda områdena.
 
 När datan är insamlad och bearbetad så ska den delas upp så det finns en samling träningsdata, en samling testdata och en samling valideringsdata.
 Träningsdatan används för att träna algoritmen för att skapa en modell som utvärderar relationen mellan indatan och utdatan för att kunna se huspris  
