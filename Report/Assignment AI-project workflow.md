@@ -46,7 +46,7 @@ y = k * x + m
 y(x1,x2,x3) = w1 * x1 + w2 * x2 + w3 * x3 + w0
 ```
 
-Då det är flera oberoende variablar som ska inverka i förutsägelsen så används mutipel linjär regressions ekvationen.
+Då det är flera oberoende variablar som ska inverka i husprisförutsägelserna så används mutipel linjär regressions ekvationen.
 
 ## Driftsätta modellen
 
