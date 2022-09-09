@@ -63,7 +63,9 @@ I driftsättning så är de teknologier som ["containers"][10] som är viktiga f
 
 # Källor
 
-<!-- Source -->
+<!-- 
+
+Source
 [Linear Regression Machine Learning Project for House Price Prediction][1]
 
 [Predicting House Prices with Linear Regression | Machine Learning from Scratch (Part II)][2]
@@ -84,7 +86,7 @@ I driftsättning så är de teknologier som ["containers"][10] som är viktiga f
 
 [Use containers to Build, Share and Run your applications][10]
 
-<!-- Links -->
+Links
 [1]: https://studygyaan.com/data-science-ml/linear-regression-machine-learning-project-for-house-price-prediction
 
 [2]: https://towardsdatascience.com/predicting-house-prices-with-linear-regression-machine-learning-from-scratch-part-ii-47a0238aeac1
@@ -103,4 +105,26 @@ I driftsättning så är de teknologier som ["containers"][10] som är viktiga f
 
 [9]: https://www.qwak.com/post/what-does-it-take-to-deploy-ml-models-in-production
 
-[10]: https://www.docker.com/resources/what-container/
+[10]: https://www.docker.com/resources/what-container/ 
+
+-->
+
+eTutorials, L., 2022. *Machine Learning Workflow | Learn eTutorials.* [online] Learnetutorials.com. Available at: <https://learnetutorials.com/machine-learning/machine-learning-workflow> [Accessed 9 September 2022].
+
+Evans, C., 2022. *Storage strategies for machine learning and AI workloads.* [online] SearchStorage. Available at: <https://www.techtarget.com/searchstorage/feature/Storage-strategies-for-machine-learning-and-AI-workloads> [Accessed 9 September 2022].
+
+Inc., D., 2022. *What is a Container? - Docker.* [online] Docker. Available at: <https://www.docker.com/resources/what-container/> [Accessed 9 September 2022].
+
+Klushin, P., 2022. *What does it take to deploy ML models in production? | Qwak's Blog.* [online] Qwak.com. Available at: <https://www.qwak.com/post/what-does-it-take-to-deploy-ml-models-in-production> [Accessed 9 September 2022].
+
+McFarland, A., 2022. *5 Best Machine Learning (AI) Programming Languages.* [online] Unite.AI. Available at: <https://www.unite.ai/5-best-machine-learning-ai-programming-languages/> [Accessed 9 September 2022].
+
+Mäklarstatistik, S., 2022. *Svensk Mäklarstatistik » Aktuell statistik på bostadspriser i Sverige.* [online] Svensk Mäklarstatistik. Available at: <https://www.maklarstatistik.se/> [Accessed 9 September 2022].
+
+Pant, A., 2022. *Workflow of a Machine Learning Project.* [online] Medium. Available at: <https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94> [Accessed 9 September 2022].
+
+Sayyed, H., 2022. *Linear Regression Machine Learning Project for House Price Prediction - Data Science & ML.* [online] StudyGyaan. Available at: <https://studygyaan.com/data-science-ml/linear-regression-machine-learning-project-for-house-price-prediction> [Accessed 9 September 2022].
+
+Tanner, G., 2022. *Introduction to Data Visualization in Python.* [online] Gilbert Tanner. Available at: <https://gilberttanner.com/blog/introduction-to-data-visualization-inpython/> [Accessed 9 September 2022].
+
+Valkov, V., 2022. *Predicting House Prices with Linear Regression | Machine Learning from Scratch (Part II).* [online] Medium. Available at: <https://towardsdatascience.com/predicting-house-prices-with-linear-regression-machine-learning-from-scratch-part-ii-47a0238aeac1> [Accessed 9 September 2022].
